@@ -1,1 +1,1 @@
-Exo-html-css-js
+Exercice de base pour HTMl/CSS/JS
