@@ -1,5 +1,0 @@
-Exo 05 Javascript, Jquery & bootstrap
-
-Créer une todo list.
-On peut ajouter, édité et supprimer des tâches.
-Si jamais on quitte la page les informations doivent être sauvegardé.
