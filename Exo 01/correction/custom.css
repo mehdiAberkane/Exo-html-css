@@ -1,0 +1,45 @@
+ul {
+  margin: 0; }
+
+html {
+  background-image: url("../images/bg_body.jpg"); }
+
+body {
+  background: url("../images/bg_header.jpg");
+  background-repeat: no-repeat;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px; }
+  body .container {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.header ul {
+  background-color: #00E500;
+  color: white;
+  text-align: right;
+  padding-right: 50px; }
+  .header ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block; }
+
+.header-home {
+  margin-top: 250px; }
+  .header-home .the-tasse, .header-home h1 {
+    font-size: 35px;
+    font-family: fantasy;
+    display: inline-block;
+    vertical-align: top; }
+    .header-home .the-tasse span:first-child, .header-home h1 span:first-child {
+      text-align: left; }
+    .header-home .the-tasse span:nth-child(2), .header-home h1 span:nth-child(2) {
+      display: block;
+      text-align: right; }
+  .header-home a {
+    color: green;
+    text-decoration: none; }
+
+/*# sourceMappingURL=custom.css.map */
