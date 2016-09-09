@@ -1,0 +1,181 @@
+/* line 5, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/main.scss */
+body {
+  padding-top: 15px;
+  border-top: 1px solid orange;
+  background-image: url("../../img/bg-body.jpg");
+}
+
+/* line 10, ../sass/main.scss */
+.orange {
+  color: orange;
+}
+
+/* line 14, ../sass/main.scss */
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* line 18, ../sass/main.scss */
+.container header .right, .container header .left {
+  display: inline-block;
+  width: 45%;
+}
+/* line 22, ../sass/main.scss */
+.container header .right {
+  text-align: right;
+  vertical-align: top;
+}
+/* line 26, ../sass/main.scss */
+.container header ul {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+/* line 31, ../sass/main.scss */
+.container header ul li {
+  margin-right: 5px;
+  display: inline-block;
+}
+/* line 38, ../sass/main.scss */
+.container .boxer h2, .container .take-a-look h2, .container .awasome h2 {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/* line 50, ../sass/main.scss */
+.container .slider .slide {
+  width: 70%;
+  display: inline-block;
+}
+/* line 53, ../sass/main.scss */
+.container .slider .slide img {
+  width: 100%;
+}
+/* line 57, ../sass/main.scss */
+.container .slider .text-slider {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  padding: 10px;
+}
+/* line 62, ../sass/main.scss */
+.container .slider .text-slider h1 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+/* line 68, ../sass/main.scss */
+.container .slider .text-slider p {
+  margin-top: 15px;
+}
+/* line 73, ../sass/main.scss */
+.container .take-a-look {
+  text-align: center;
+}
+/* line 76, ../sass/main.scss */
+.container .take-a-look .take-img:last-child {
+  margin-right: 0 !important;
+}
+/* line 79, ../sass/main.scss */
+.container .take-a-look .take-img:first-child {
+  margin-left: 0 !important;
+}
+/* line 82, ../sass/main.scss */
+.container .take-a-look .take-img {
+  padding: 10px;
+  display: inline-block;
+  width: 22%;
+  height: 240px;
+  background-color: white;
+  text-align: center;
+}
+/* line 89, ../sass/main.scss */
+.container .take-a-look .take-img img {
+  width: 100%;
+}
+/* line 94, ../sass/main.scss */
+.container .awasome {
+  margin-top: 20px;
+}
+/* line 97, ../sass/main.scss */
+.container .awasome .left, .container .awasome .video {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+/* line 103, ../sass/main.scss */
+.container .footer {
+  background-color: blue;
+}

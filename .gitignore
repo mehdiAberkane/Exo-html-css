@@ -3,6 +3,7 @@ bin/
 bin-debug/
 bin-release/
 /Exo 01/.sass-cache
+/Exo 02/correction/.sass-cache
 
 # Other files and folders
 .settings/
