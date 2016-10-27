@@ -2,3 +2,7 @@ Intégré la maquette RealTea.png avec les sources données.
 
 Interdiction d'utilisé:
 Framework css (bootstrap, foundation, etc...)
+Les propriétes css: position et float.
+
+Conseil:
+Regarder le découpage pour vous aidez sur la structure de la page.

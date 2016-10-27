@@ -1,1 +1,6 @@
-Utilis�: SASS & Compass
+Intégré la maquette BlueMaster.png avec les sources données.
+Le site doit être responsive design.
+
+Utilisé:
+Bootstrap
+SASS

@@ -1,1 +1,7 @@
-Utilisé: Bootstrap & jquery
+Intégré la maquette ODW-minisite-prod.png avec les sources données.
+Le site doit être responsive design.
+
+Utilisé:
+Bootstrap
+SASS
+jQuery
