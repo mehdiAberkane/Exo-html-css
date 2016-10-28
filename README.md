@@ -18,10 +18,16 @@
 # SASS/COMPASS
 
 Install ruby
+* Windows: http://rubyinstaller.org/downloads/
+* Linux: apt-get install ruby
+    
+    
+Install sass and compass
+    
+    gem install sass
+    gem install compass
 
-gem install sass
-gem install compass
+If problem with SSL: 
 
-En cas de probléme avec le SSL: 
-gem sources --remove https://rubygems.org/
-gem sources -a http://rubygems.org/
+    gem sources --remove https://rubygems.org/
+    gem sources -a http://rubygems.org/
