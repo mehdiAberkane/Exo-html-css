@@ -14,3 +14,4 @@ bin-release/
 
 # Ide config
 .idea/*
+.DS_Store
