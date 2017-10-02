@@ -1,0 +1,15 @@
+#homepage {
+  h1 {
+    font-family: $font;
+    color: $primary_color;
+  }
+
+  form {
+    input {
+      @include form-input(100px);
+    }
+    span {
+      @extend .error;
+    }
+  }
+}
