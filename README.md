@@ -31,3 +31,12 @@ If problem with SSL:
 
     gem sources --remove https://rubygems.org/
     gem sources -a http://rubygems.org/
+
+# Top Link
+* https://makeawebsitehub.com/the-html-5-mega-cheat-sheet/
+* http://cssreference.io/
+* http://blog.ramenos.net/referencement/10-choses-a-faire-pour-reduire-le-poids-de-ses-pages/
+* https://www.grafikart.fr/
+* https://korben.info/
+* https://developers.google.com/speed/pagespeed/insights/
+* https://lehollandaisvolant.net/tuto/pagespd/
