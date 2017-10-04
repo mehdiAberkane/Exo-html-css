@@ -32,6 +32,10 @@ If problem with SSL:
     gem sources --remove https://rubygems.org/
     gem sources -a http://rubygems.org/
 
+Launch SASS:
+
+	sass --watch yoursassfile.scss:thefinalcss.css
+
 # Top Link
 * https://makeawebsitehub.com/the-html-5-mega-cheat-sheet/
 * http://cssreference.io/
