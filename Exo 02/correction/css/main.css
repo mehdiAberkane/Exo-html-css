@@ -1,0 +1,17 @@
+#homepage {
+  background-image: url("../../img/bg-body.jpg");
+  margin-top: 20px; }
+  #homepage header ul {
+    background-color: black; }
+    #homepage header ul li {
+      color: white;
+      display: inline-block;
+      padding: 10px;
+      margin-right: 10px; }
+      #homepage header ul li:hover {
+        color: orange;
+        cursor: pointer; }
+  #homepage aside {
+    margin-top: 40px; }
+
+/*# sourceMappingURL=main.css.map */

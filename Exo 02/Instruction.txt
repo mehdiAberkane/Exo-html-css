@@ -1,4 +1,5 @@
 Intégré la maquette wonder.jpg avec les sources données.
 
-Interdiction d'utilisé:
-Framework css (bootstrap, foundation, etc...)
+Utilisation de bootstrap autorisée.
+
+gem install sass

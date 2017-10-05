@@ -1,106 +1,22 @@
-@import "compass";
-@import "compass/reset";
-
-body {
-  padding-top: 15px;
-  border-top: 1px solid orange;
-  background-image: url('../../img/bg-body.jpg');
-}
-
-.orange {
-  color: orange;
-}
-
-.container {
-  width: 80%;
-  margin: auto;
-  header {
-    .right, .left {
-      display: inline-block;
-      width: 45%;
-    }
-    .right {
-      text-align: right;
-      vertical-align: top;
-    }
-    ul {
-      padding: 5px;
-      background-color: black;
-      color: white;
-      display: inline-block;
-      li {
-        margin-right: 5px;
-        display: inline-block;
-      }
-    }
-  }
-  .boxer {
-    h2 {
-      background-color: black;
-      color: white;
-      padding: 5px;
-      text-transform: capitalize;
-      padding-bottom: 15px;
-      text-align: left;
-      margin-bottom: 15px;
-      margin-top: 15px;
-    }
-  }
-  .slider {
-    .slide {
-      width: 70%;
-      display: inline-block;
-      img {
-        width: 100%;
-      }
-    }
-    .text-slider {
-      display: inline-block;
-      width: 25%;
-      vertical-align: top;
-      padding: 10px;
-      h1 {
-        text-transform: capitalize;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 1.5em;
-      }
-      p {
-        margin-top: 15px;
-      }
-    }
-  }
-  .take-a-look {
-    text-align: center;
-    @extend .boxer;
-    .take-img:last-child {
-      margin-right: 0!important;
-    }
-    .take-img:first-child {
-      margin-left: 0!important;
-    }
-    .take-img {
-      padding: 10px;
-      display: inline-block;
-      width: 22%;
-      height: 240px;
-      background-color: white;
-      text-align: center;
-      img {
-        width: 100%;
-      }
-    }
-  }
-  .awasome {
-    margin-top: 20px;
-    @extend .boxer;
-    .left, .video {
-      display: inline-block;
-      width: 49%;
-      vertical-align: top;
-    }
-  }
-  .footer {
-    background-color: blue;
-  }
+#homepage {
+	background-image: url("../../img/bg-body.jpg");
+	margin-top: 20px;
+	header {
+		ul {
+			background-color: black;
+			li {
+				color: white;
+				display: inline-block;
+				padding: 10px;
+				margin-right: 10px;
+				&:hover {
+					color: orange;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	aside {
+		margin-top: 40px;
+	}
 }
