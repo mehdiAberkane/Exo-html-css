@@ -13,9 +13,13 @@
 .warning {
   border-color: yellow; }
 
+#homepage .my-class {
+  width: 50%;
+  display: inline-block; }
 #homepage h1 {
   font-family: fantasy;
-  color: #0296c0; }
+  color: #0296c0;
+  text-align: center; }
 #homepage form input {
   display: block;
   width: 100px;

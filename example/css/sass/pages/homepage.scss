@@ -1,7 +1,12 @@
 #homepage {
+  .my-class {
+    width: 50%;
+    display: inline-block;
+  }
   h1 {
     font-family: $font;
     color: $primary_color;
+    text-align: center;
   }
 
   form {

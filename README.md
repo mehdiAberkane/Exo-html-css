@@ -1,8 +1,5 @@
 # Exercice de base pour HTML/CSS/GIT
 
-
-
-
 # git command
 
 * git init
